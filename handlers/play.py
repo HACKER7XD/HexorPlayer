@@ -123,7 +123,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>ƑӀօօժ చąìէ Ɛɾɾօɾ</b>\nHҽყ Aʂʂιʂƚαɳƚ UʂҽɾBσƚ Cσυʅԃɳ'ƚ Jσιɳ Yσυɾ Gɾσυρ Tσ Hҽαʋყ Rҽϙυҽʂƚ . Mαƙҽ Sυɾҽ UʂҽɾBσƚ Iʂ Nσƚ Bαɳɳҽԃ Iɳ Gɾσυρ Aɳԃ Tɾყ Aɠαιɳ Lαƚҽɾ   try:
+                        f"<b>ƑӀօօժ చąìէ Ɛɾɾօɾ</b>\nHҽყ Aʂʂιʂƚαɳƚ UʂҽɾBσƚ Cσυʅԃɳ'ƚ Jσιɳ Yσυɾ Gɾσυρ Tσ Hҽαʋყ Rҽϙυҽʂƚ . Mαƙҽ Sυɾҽ UʂҽɾBσƚ Iʂ Nσƚ Bαɳɳҽԃ Iɳ Gɾσυρ Aɳԃ Tɾყ Aɠαιɳ Lαƚҽɾ:) ") 
         await USER.get_chat(chid)
     except:
         await lel.edit(
