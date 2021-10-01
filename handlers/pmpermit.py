@@ -5,5 +5,5 @@ from config import BOT_USERNAME
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"💕𝗛𝗲𝗿𝗲 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲 𝗢𝗳 @{BOT_USERNAME}\n✨𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 @𝗔𝗯𝗼𝘂𝘁𝗛𝗲𝘅𝗼𝗿\n🌟𝗗𝗼𝗻𝘁 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲")
+  await USER.send_message(message.chat.id,"💕Hҽɾҽ Aʂʂιʂƚαɳƚ Oϝ @{BOT_USERNAME}\n✨This Bσƚ Dҽρʅσყ Bყ @XD_LIF [𝕵𝖆𝖓𝖛𝖎](https://t.me/HEENAXD)\n🌟𝗗𝗼𝗻𝘁 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲")
   return                        
